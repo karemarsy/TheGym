@@ -9,7 +9,7 @@ function roundRobin(jobs, slice, index) {
   while (queue.length > 0) {
     const currentJob = queue.shift();
 
-    // Calculate the remaining time for the current job
+
     const remainingTime = Math.max(0, jobs[currentJob] - slice);
 
     totalTime += Math.min(jobs[currentJob], slice);
