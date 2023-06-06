@@ -1,0 +1,1 @@
+const reverse = (string) => [...string].reverse().join("");
